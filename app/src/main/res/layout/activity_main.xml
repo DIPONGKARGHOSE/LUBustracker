@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#7dae94"
+    android:orientation="vertical">
+
+    <ViewFlipper
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who are you ?"
+        android:textSize="17dp"
+        android:textColor="@color/background_light"
+
+        />
+    <Button
+        android:id="@+id/student"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:background="#66A078"
+        android:layout_height="40dp"
+        android:text="Student"
+        android:textColor="@color/background_light"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="------------------------------ or ------------------------------"
+        android:textSize="15dp"
+        android:textColor="@color/background_light"
+        />
+
+    <Button
+        android:id="@+id/driver"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Driver"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+        android:background="#66A078"
+        />
+
+
+</LinearLayout>

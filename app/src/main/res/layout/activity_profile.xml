@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="#C4C8DD"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="#38A33D"
+        android:gravity="center"
+        android:text="Choose your pick up point"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="15dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:background="#D381A028"
+        android:text="Which route bus do you want to show your map ?"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/Routes0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        android:text="All Route"
+        android:textColor="#154"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/Routes1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:text="Routes 1"
+        android:textColor="#154"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/Routes2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:text="Routes 2"
+        android:textColor="#154"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/Routes3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:text="Routes 3"
+        android:textColor="#154"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <RadioButton
+        android:id="@+id/Routes4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:text="Routes 4"
+        android:textColor="#154"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RadioGroup>
+
+    <Button
+        android:id="@+id/BUT"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#724CB8"
+        android:layout_marginTop="10dp"
+        android:text="go to map" />
+
+
+    <Button
+        android:id="@+id/logout"
+        android:background="#689F38"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="35dp"
+        android:text="Log Out">
+
+    </Button>
+
+
+
+
+</LinearLayout>
